@@ -1,0 +1,7 @@
+.contenedor {
+    display: flex;
+}
+
+.imagen {
+    align-items: center;
+}
