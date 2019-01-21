@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <title>Piedra, papel o tijera </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    
+    <div class="todo">
+
+        <h1 class="titulo">¿Piedra, Papel o Tijera?</h1>
+
+        <h3 class="titulo">Jugador 1</h3>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="optionsj1" id="j1Piedra" autocomplete="off"> <img class="logo" src="https://www.campcanary.co.uk/uploads/rock-icon-grey.png" alt=""> 
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="optionsj2" id="j1Papel" autocomplete="off"> <img class="logo" src="https://www.campcanary.co.uk/uploads/paper-icon-grey.png" alt=""> 
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="optionsj3" id="j1Tijera" autocomplete="off"> <img class="logo" src="https://www.campcanary.co.uk/uploads/scissors-icon-grey.png" alt="">
+            </label>
+        </div>
+
+        <h3 class="titulo">Jugador 2</h3>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="j2Piedra" autocomplete="off"> <img class="logo" src="https://www.campcanary.co.uk/uploads/rock-icon-grey.png" alt=""> 
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="j2Papel" autocomplete="off"> <img class="logo" src="https://www.campcanary.co.uk/uploads/paper-icon-grey.png" alt=""> 
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="j2Tijera" autocomplete="off"> <img class="logo" src="https://www.campcanary.co.uk/uploads/scissors-icon-grey.png" alt="">
+            </label>
+        </div>
+
+        <button onclick="jugar()" type="button" class="btn btn-success">Jugar</button>
+
+        <h1 id="resultado">Resultado: </h1>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
