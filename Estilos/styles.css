@@ -1,0 +1,17 @@
+body {
+    background-size: cover;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: blueviolet;
+    z-index: 10;
+}
+
+.card {
+    background-image: linear-gradient(to right, blue , green);
+    color: white
+}
